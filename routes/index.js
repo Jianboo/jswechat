@@ -63,8 +63,8 @@ const handleWechatRequest = function(req, res, next){
     }
 };
 
-router.get('/api/wechat',handleWechatRequest);
-router.post('/api/wechat',handleWechatRequest);
+router.get('/wechat/api',handleWechatRequest);
+router.post('/wechat/api',handleWechatRequest);
 
 
 
